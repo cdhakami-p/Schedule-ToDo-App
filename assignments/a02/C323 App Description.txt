@@ -1,0 +1,7 @@
+General App Description:
+A scheduling/planning app that helps you plan your day, including classes, events, trips, and more with a simple calendar layout. The app also contains a daily/weekly todo list in order to keep track of assignments and other tasks you need, with priorities to focus on important ones. It will utilize frameworks such as Core Location and User Notifications to help users note locations of events, and receive notifications before and leading up to events. Another potential framework is WidgetKit, which will help users quicky view their upcoming events or tasks from their lock/home screen. A scheduling app like this has a wide reach of potential users including people like students, athletes, and anyone else looking to organize their time better.
+
+Casey Hakami - cdhakami@iu.edu
+Jarret Rockwell - jarrrock@iu.edu
+
+04/14/2025

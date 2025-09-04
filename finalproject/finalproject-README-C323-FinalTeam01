@@ -1,0 +1,29 @@
+C323 / Spring 2025
+Final Project
+05/07/2025 11:59 PM
+
+Casey Hakami cdhakami@iu.edu
+Jarret Rockwell jarrrock@iu.edu
+
+Xcode 16.3
+
+Instructions:
+When opening the app the user will be prompted to allow notifications and location tracking. In order to get the proper location tracking experience you must also navigate into location in privacy settings on the phone and allow always even after allowing upon opening the app. To use our app, the user should navigate from the initial schedule view to the edit view, where they can make their first event or task. To do this, the user should leave Create New Event toggled on, and then choose whether or not to toggle New Task. Once that is done, the user can fill in the required fields and press save. Once this is done, they can view their new event or task in its respective tab, and by navigating to its date or place in that tab. From there, they can choose to add/edit/delete more events, or simply check on their current upcoming ones. The user will be given notifications one day in advance as well as one hour in advance when not in the app. Similarly, the user will also receive a notification when in a range of the event of 300 meters. Lastly, the user can choose to create a widget on the home or Lock Screen for quick access to their next task. (Note: Simulator and iPhone were being buggy for some reason when testing recently, if no buttons work you might need to uninstall and reinstall. Unsure of why this suddenly started happening).
+
+Environment:
+We used Xcode 16.3 and tested on that using iOS 18.4 and an iPhone SE (3rd Generation). We also used an iPhone 15 pro on iOS 18.4 for hardware testing required for the widget.
+
+Features:
+Our app uses MVC, including one model for storing tasks and events which are displayed on their respective Schedule and Task views, connected to their respective view controllers. The Edit View and view controller make direct changes to the model, while the other two only access it for viewing purposes. Our app has several inputs in the edit view controller for adding or editing items, and are output in the schedule and task views. We have 3 separate views which I already mentioned, within one container tab bar. The Schedule view incorporates a table view controller within it in order to display the events.
+
+Type of App:
+While our app does contain a Reminders/ToDo portion, this is not the main functionality and a ToDo app was not seen during this semester as it states. We do not use any server side or internet connections.
+
+Incorporations:
+As mentioned earlier, our app has an interactive UI for inputs in the edit view and outputs displayed in the other two view. It also contains persistent storage through plist, similar to what we worked on in lab before.
+
+Frameworks:
+Out of the ones we used in class, our app uses the CoreLoaction, MapKit, and UserNotification frameworks for time and location based notifications. Our framework that we did not cover is WidgetKit, which allows widgets to be created on the home or Lock Screen to view tasks.
+
+Design Changes:
+Since A04, the only substantial design changes are that we now use the MapKit framework along with CoreLocation in order to get precise coordinates for events given a simple location string such as "Luddy". This is much more user friendly than needing an address with CoreLocation alone. Most smaller changes we made to the design were documented and updated between a02-a04, such as new methods and attributes, or including the edit view in the tab bar. This last substantial change for MapKit was made after a04 and inside of the EditViewController.swift file  within the locationTracking function.

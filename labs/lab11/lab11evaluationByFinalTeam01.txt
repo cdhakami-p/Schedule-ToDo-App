@@ -1,0 +1,61 @@
+C323 / Spring 2025
+Lab 11
+Tuesday 22 April 2025
+
+Team 1: Gamboge
+Casey Hakami - cdhakami@iu.edu
+Jarret Rockwell - jarrrock@iu.edu
+
+FEEDBACK FOR TEAM 25: 
+
+Use-Case Diagram:
+- What does Play Game consist of? 
+- What are some of the functions it runs?
+- Are there any other actors besides the user?
+
+Class Diagram:
+- View elements are isolated, each view should have its own box with those elements (ex: UIBUtton) inside.
+- Could you add the frameworks into the diagram?
+
+Activity Diagram:
+- The get instructions action isn't represented
+
+Wireframe Diagram:
+- Could you also document the frameworks (Notification & MapKit?)?
+
+In general:
+- Where would ARKit fit into the UML documentation? It is mentioned in the game description
+  but no where else.
+- What are the dimensions of the grid in real life?
+- What is your second framework from class? MapKit?
+
+Table of UML evaluation criteria (Use-Case):
+Criterion		% of Grade	% Given by Us		Our Comments
+Documentation		40%		Adequate (80%)		What does Play Game consist of?
+Specifications		40%		Excellent (100%)
+Readability 		20%		Excellent (100%)
+and Correctness
+
+Table of UML evaluation criteria (Class):
+Criterion		% of Grade	% Given by Us		Our Comments
+Documentation		40%		Adequate (80%)		View elements are isolated, 
+								each view should have its own box with those elements 
+								(ex: UIBUtton) inside.
+Specifications		40%		Excellent (100%)
+Readability 		20%		Excellent (100%)
+and Correctness
+
+Table of UML evaluation criteria (Activity):
+Criterion		% of Grade	% Given by Us		Our Comments
+Documentation		40%		Excellent (100%)	Get Instructions action?
+Specifications		40%		Excellent (100%)
+Readability 		20%		Excellent (100%)
+and Correctness
+
+
+Table of Wireframe evaluation criteria:
+Criterion		% of Grade	% Given by Us		Our Comments
+MVC			    40%		Excellent (100%)	Missing 2nd class framework documentation    
+UI Element		    30%		Excellent (100%)
+Frameworks 		    30%		Adequate (80%)
+

@@ -1,0 +1,67 @@
+C323 / Spring 2025
+A04 
+Tuesday 27 April 2025
+
+Team 1: Gamboge
+Casey Hakami - cdhakami@iu.edu
+Jarret Rockwell - jarrrock@iu.edu
+
+FEEDBACK FOR TEAM 13 (UPDATED DOCS): 
+
+
+Document Evaluation:
+
+(Updated)
+Wireframe Diagram:
+- Is the edit event view the same as the create one?
+
+Use-Case Diagram:
+- Looks good
+
+Class Diagram:
+- What data types are being used for start and end time?
+- Where are the views, what attribute do they have?
+
+Activity Diagram:
+- Can the day blocks be tapped from the weekly view the way they can be in the monthly?
+- Can the events be tapped from the weekly view the way they can be in the daily?
+
+General Comments:
+- Consider adding updated dates and app title to documentation files, I believe it is required in all.
+
+Table of UML evaluation criteria (Use-Case):
+Criterion		    % of Grade	% Given by Us		    Our Comments
+Documentation		40%		      Adequate (100%)		
+Specifications	40%		      Excellent (100%)
+Readability 		20%		      Excellent (100%)
+and Correctness
+
+Table of UML evaluation criteria (Class):
+Criterion		    % of Grade	% Given by Us		    Our Comments
+Documentation		40%		      Adequate (80%)		  Missing views and a couple data types
+Specifications	40%		      Excellent (100%)
+Readability 		20%		      Excellent (100%)
+and Correctness
+
+Table of UML evaluation criteria (Activity):
+Criterion		    % of Grade	% Given by Us		    Our Comments
+Documentation		40%		      Excellent (100%)	  See comments above
+Specifications	40%		      Excellent (100%)
+Readability 		20%		      Excellent (100%)
+and Correctness
+
+
+Table of Wireframe evaluation criteria:
+Criterion		  % of Grade	  % Given by Us		    Our Comments
+MVC			      40%		        Excellent (100%)	  See comment above   
+UI Element		30%		        Excellent (100%)
+Frameworks 		30%		        Adequate (100%)
+
+
+Implementation Evaluation:
+
+Table of code evaluation criteria:
+Criterion		          % of Grade	  % Given by Us		    Our Comments
+Program Correctness	  50%		        Excellent (100%)   	Met timeline and a03 expectations well.
+Specifications		    50%		        Excellent (100%)
+Readability

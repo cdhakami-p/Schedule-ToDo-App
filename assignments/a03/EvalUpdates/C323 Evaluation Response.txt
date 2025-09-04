@@ -1,0 +1,77 @@
+Casey Hakami (cdhakami@iu.edu), Jarret Rockwell (jarrrock@iu.edu)
+MyPlanner
+04/21/2025
+
+----
+
+C323 / Spring 2025
+Lab 11
+Monday 21 April 2025
+
+Team 13: Turquoise
+Donnie Parent / daparent
+Conrad Waller / cjwaller
+
+FEEDBACK FOR TEAM 1: GAMBOGE
+
+Small issue in the State Diagram, specifically with the arrow from Schedule to Notification:
+- The user should get a notification for the event BEFORE they're at the eventLocation.
+- If the user has an event today, they get a notification. 
+  Then, once they arrive at the eventLocation, they get another notification. 
+  Is this the intended behavior? --> The user gets a notification the day of the event and likely also an hour before which we will update to the diagram. 
+				     The user will get a notification when in a certain proximity of the event, such as a couple miles away.
+
+In the Class Diagram:
+- Is a ToDo a implementation of an Event, or are they completely separate classes? --> We hadn't thought about this before, but it will likely implement event class
+  The ToDo only has one additional attribute, isCompleted, so theoretically it could extend the Event class.
+- Do ToDos have a time window (ex. 9-11 AM) or just a notification time (ex: 9AM)? --> They have a time window for simplicity with the event class, but will only notify at the start time. 
+										       It also doesn't hurt to have a specific window
+- From the Edit View, what is the difference between editing an event and creating an event? --> Ideally, editing an event will copy the event/task you plan to edit's info into the edit view.
+											 	 Rather than having blank fields it will have the current data for each.
+- Does the Edit View work for both ToDos and Events? --> Yes, it should be able to add/edit events and todo tasks.
+
+Use-Case Diagram:
+- Can the user add/edit the event from the Tab Bar?  --> The user will access the add/edit view from the + button or hopefully an edit button, not the tab bar
+  It's only shown this was in this diagram, in others it is a button.
+- The app display/views is not incorporated in this diagram at all. --> Do not understand this, each view is listed.
+- Why are the Frameworks the "endpoints"? --> They aren't endpoints but rather represent other figures interacting with features of the app
+  Doesn't the app continue to process information from the Frameworks? --> Yes, the lines to the frameworks are supposed to represent bidirectional relationships.
+									   The frameworks interact with data from the app and then provide a function with it.
+  This part is very confusing to us and we're not sure how to interpret it.
+
+In general:
+- Can the user see their schedule for the week? --> The user sees a daily schedule but can change the date being viewed to future days. Not sure how far out this will be, but at the very least a week ahead.
+  How does this differ from the daily schedule? --> You only view a daily schedule, but can change the day to days ahead during the week. Difficult to implement weekly view on phone.
+  This was described in the App Description but not shown in the diagrams.
+- How are Widgets implemented? --> Widgets on phone lock/home screen can display individual tasks or upcoming daily events, will be added to wireframes (and more) for implementation display.
+  They're only in the App Description and the Use-Case Diagram.
+
+Table of UML evaluation criteria:
+Criterion		% of Grade	% Given by Us		Our Comments
+Documentation		40%		Adequate (80%)		Why are Frameworks the "Endpoints" in Use-Case? (Answered above), Difference between Event and To-Do (event is on schedule, something like a class or meeting,
+																					while todo has tasks like doing the laundry)																					
+Specifications		40%		Excellent (100%)
+Readability 		20%		Excellent (100%)
+and Correctness
+
+Tables of UML evaluation criteria:
+40% MVC Design Pattern
+Criterion		% of Grade	% Given by Us
+Documentation		40%		Excellent (100%)
+Specifications		40%		Excellent (100%)
+Readability 		20%		Excellent (100%)
+and Correctness
+
+30% Correctly incorporating Required UI Elements
+Criterion		% of Grade	% Given by Us		Our Comments
+Documentation		40%		Adequate (80%)		Add/Edit not in Tab Bar --> won't be on tab bar, rather accessed through + and edit buttons
+Specifications		40%		Adequate (80%)		Missing Widgets in Class Diagram --> added.
+Readability 		20%		Excellent (100%)
+and Correctness
+
+30% Making use of Frameworks
+Criterion		% of Grade	% Given by Us		Our Comments
+Documentation		40%		Adequate (80%)		How Widgets being used? --> answered above
+Specifications		40%		Excellent (100%)
+Readability 		20%		Excellent (100%)
+and Correctness
